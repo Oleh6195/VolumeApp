@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086D57B3835138895AB78816 /* Pods_MicVolumeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E1E11BCBFC6BE46150C849 /* Pods_MicVolumeUITests.framework */; };
+		7CF4991822CA2C48008CAA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4991722CA2C48008CAA65 /* AppDelegate.swift */; };
+		7CF4991D22CA2C4A008CAA65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF4991B22CA2C4A008CAA65 /* MainMenu.xib */; };
+		7CF4992922CA2C4A008CAA65 /* MicVolumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4992822CA2C4A008CAA65 /* MicVolumeTests.swift */; };
+		7CF4993422CA2C4A008CAA65 /* MicVolumeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4993322CA2C4A008CAA65 /* MicVolumeUITests.swift */; };
+		7CF4996222CBB3DB008CAA65 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF4996122CBB3DB008CAA65 /* Media.xcassets */; };
+		F49F788F15B336B9C236AC77 /* Pods_MicVolumeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578AED64201A7727EEC4221F /* Pods_MicVolumeTests.framework */; };
+		FD5EC1EC1F1F65FA99C905D7 /* Pods_MicVolume.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E682E0B971C85AE36EED0346 /* Pods_MicVolume.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF4992522CA2C4A008CAA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF4990C22CA2C48008CAA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF4991322CA2C48008CAA65;
+			remoteInfo = MicVolume;
+		};
+		7CF4993022CA2C4A008CAA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF4990C22CA2C48008CAA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF4991322CA2C48008CAA65;
+			remoteInfo = MicVolume;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0242646E0C4B98281680251F /* Pods-MicVolumeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicVolumeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicVolumeUITests/Pods-MicVolumeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23E1E11BCBFC6BE46150C849 /* Pods_MicVolumeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicVolumeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E0125684FE5A6B5BEA7D29 /* Pods-MicVolumeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicVolumeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicVolumeUITests/Pods-MicVolumeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		578AED64201A7727EEC4221F /* Pods_MicVolumeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicVolumeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF4991422CA2C48008CAA65 /* MicVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF4991722CA2C48008CAA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CF4991C22CA2C4A008CAA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7CF4991E22CA2C4A008CAA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF4991F22CA2C4A008CAA65 /* MicVolume.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MicVolume.entitlements; sourceTree = "<group>"; };
+		7CF4992422CA2C4A008CAA65 /* MicVolumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicVolumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF4992822CA2C4A008CAA65 /* MicVolumeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicVolumeTests.swift; sourceTree = "<group>"; };
+		7CF4992A22CA2C4A008CAA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF4992F22CA2C4A008CAA65 /* MicVolumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicVolumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF4993322CA2C4A008CAA65 /* MicVolumeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicVolumeUITests.swift; sourceTree = "<group>"; };
+		7CF4993522CA2C4A008CAA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF4996122CBB3DB008CAA65 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8E4CE8CBA2EA6A1A5CDA64B7 /* Pods-MicVolumeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicVolumeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicVolumeTests/Pods-MicVolumeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDBACB5B9EE6793D7C456C69 /* Pods-MicVolume.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicVolume.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicVolume/Pods-MicVolume.debug.xcconfig"; sourceTree = "<group>"; };
+		E682E0B971C85AE36EED0346 /* Pods_MicVolume.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicVolume.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5F0012D67878795BA251B7 /* Pods-MicVolumeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicVolumeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicVolumeTests/Pods-MicVolumeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F614A59EBFEDB948F179F7F3 /* Pods-MicVolume.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicVolume.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicVolume/Pods-MicVolume.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF4991122CA2C48008CAA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EC1EC1F1F65FA99C905D7 /* Pods_MicVolume.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF4992122CA2C4A008CAA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F788F15B336B9C236AC77 /* Pods_MicVolumeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF4992C22CA2C4A008CAA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086D57B3835138895AB78816 /* Pods_MicVolumeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CF4990B22CA2C48008CAA65 = {
+			isa = PBXGroup;
+			children = (
+				89F70B2BBF82309805D4037C /* Frameworks */,
+				7CF4991622CA2C48008CAA65 /* MicVolume */,
+				7CF4992722CA2C4A008CAA65 /* MicVolumeTests */,
+				7CF4993222CA2C4A008CAA65 /* MicVolumeUITests */,
+				7F3E791F2145F01A87EF1472 /* Pods */,
+				7CF4991522CA2C48008CAA65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF4991522CA2C48008CAA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF4991422CA2C48008CAA65 /* MicVolume.app */,
+				7CF4992422CA2C4A008CAA65 /* MicVolumeTests.xctest */,
+				7CF4992F22CA2C4A008CAA65 /* MicVolumeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF4991622CA2C48008CAA65 /* MicVolume */ = {
+			isa = PBXGroup;
+			children = (
+				7CF4991722CA2C48008CAA65 /* AppDelegate.swift */,
+				7CF4991B22CA2C4A008CAA65 /* MainMenu.xib */,
+				7CF4991E22CA2C4A008CAA65 /* Info.plist */,
+				7CF4991F22CA2C4A008CAA65 /* MicVolume.entitlements */,
+				7CF4996122CBB3DB008CAA65 /* Media.xcassets */,
+			);
+			path = MicVolume;
+			sourceTree = "<group>";
+		};
+		7CF4992722CA2C4A008CAA65 /* MicVolumeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF4992822CA2C4A008CAA65 /* MicVolumeTests.swift */,
+				7CF4992A22CA2C4A008CAA65 /* Info.plist */,
+			);
+			path = MicVolumeTests;
+			sourceTree = "<group>";
+		};
+		7CF4993222CA2C4A008CAA65 /* MicVolumeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF4993322CA2C4A008CAA65 /* MicVolumeUITests.swift */,
+				7CF4993522CA2C4A008CAA65 /* Info.plist */,
+			);
+			path = MicVolumeUITests;
+			sourceTree = "<group>";
+		};
+		7F3E791F2145F01A87EF1472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDBACB5B9EE6793D7C456C69 /* Pods-MicVolume.debug.xcconfig */,
+				F614A59EBFEDB948F179F7F3 /* Pods-MicVolume.release.xcconfig */,
+				8E4CE8CBA2EA6A1A5CDA64B7 /* Pods-MicVolumeTests.debug.xcconfig */,
+				EB5F0012D67878795BA251B7 /* Pods-MicVolumeTests.release.xcconfig */,
+				0242646E0C4B98281680251F /* Pods-MicVolumeUITests.debug.xcconfig */,
+				50E0125684FE5A6B5BEA7D29 /* Pods-MicVolumeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89F70B2BBF82309805D4037C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E682E0B971C85AE36EED0346 /* Pods_MicVolume.framework */,
+				578AED64201A7727EEC4221F /* Pods_MicVolumeTests.framework */,
+				23E1E11BCBFC6BE46150C849 /* Pods_MicVolumeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF4991322CA2C48008CAA65 /* MicVolume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF4993822CA2C4A008CAA65 /* Build configuration list for PBXNativeTarget "MicVolume" */;
+			buildPhases = (
+				6E6CB39029C52D297B8300AF /* [CP] Check Pods Manifest.lock */,
+				7CF4991022CA2C48008CAA65 /* Sources */,
+				7CF4991122CA2C48008CAA65 /* Frameworks */,
+				7CF4991222CA2C48008CAA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicVolume;
+			productName = MicVolume;
+			productReference = 7CF4991422CA2C48008CAA65 /* MicVolume.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CF4992322CA2C4A008CAA65 /* MicVolumeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF4993B22CA2C4A008CAA65 /* Build configuration list for PBXNativeTarget "MicVolumeTests" */;
+			buildPhases = (
+				70A186DD7A271776EA10719C /* [CP] Check Pods Manifest.lock */,
+				7CF4992022CA2C4A008CAA65 /* Sources */,
+				7CF4992122CA2C4A008CAA65 /* Frameworks */,
+				7CF4992222CA2C4A008CAA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF4992622CA2C4A008CAA65 /* PBXTargetDependency */,
+			);
+			name = MicVolumeTests;
+			productName = MicVolumeTests;
+			productReference = 7CF4992422CA2C4A008CAA65 /* MicVolumeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CF4992E22CA2C4A008CAA65 /* MicVolumeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF4993E22CA2C4A008CAA65 /* Build configuration list for PBXNativeTarget "MicVolumeUITests" */;
+			buildPhases = (
+				5F93A06546A5BB50A5ED849D /* [CP] Check Pods Manifest.lock */,
+				7CF4992B22CA2C4A008CAA65 /* Sources */,
+				7CF4992C22CA2C4A008CAA65 /* Frameworks */,
+				7CF4992D22CA2C4A008CAA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF4993122CA2C4A008CAA65 /* PBXTargetDependency */,
+			);
+			name = MicVolumeUITests;
+			productName = MicVolumeUITests;
+			productReference = 7CF4992F22CA2C4A008CAA65 /* MicVolumeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF4990C22CA2C48008CAA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = OlehTyzhai;
+				TargetAttributes = {
+					7CF4991322CA2C48008CAA65 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7CF4992322CA2C4A008CAA65 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7CF4991322CA2C48008CAA65;
+					};
+					7CF4992E22CA2C4A008CAA65 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7CF4991322CA2C48008CAA65;
+					};
+				};
+			};
+			buildConfigurationList = 7CF4990F22CA2C48008CAA65 /* Build configuration list for PBXProject "MicVolume" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF4990B22CA2C48008CAA65;
+			productRefGroup = 7CF4991522CA2C48008CAA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF4991322CA2C48008CAA65 /* MicVolume */,
+				7CF4992322CA2C4A008CAA65 /* MicVolumeTests */,
+				7CF4992E22CA2C4A008CAA65 /* MicVolumeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF4991222CA2C48008CAA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF4996222CBB3DB008CAA65 /* Media.xcassets in Resources */,
+				7CF4991D22CA2C4A008CAA65 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF4992222CA2C4A008CAA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF4992D22CA2C4A008CAA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F93A06546A5BB50A5ED849D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicVolumeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E6CB39029C52D297B8300AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicVolume-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A186DD7A271776EA10719C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicVolumeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF4991022CA2C48008CAA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF4991822CA2C48008CAA65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF4992022CA2C4A008CAA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF4992922CA2C4A008CAA65 /* MicVolumeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF4992B22CA2C4A008CAA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF4993422CA2C4A008CAA65 /* MicVolumeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CF4992622CA2C4A008CAA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF4991322CA2C48008CAA65 /* MicVolume */;
+			targetProxy = 7CF4992522CA2C4A008CAA65 /* PBXContainerItemProxy */;
+		};
+		7CF4993122CA2C4A008CAA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF4991322CA2C48008CAA65 /* MicVolume */;
+			targetProxy = 7CF4993022CA2C4A008CAA65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CF4991B22CA2C4A008CAA65 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF4991C22CA2C4A008CAA65 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF4993622CA2C4A008CAA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CF4993722CA2C4A008CAA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7CF4993922CA2C4A008CAA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBACB5B9EE6793D7C456C69 /* Pods-MicVolume.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = MicVolume/MicVolume.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F62X9247PK;
+				INFOPLIST_FILE = MicVolume/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.MicVolume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7CF4993A22CA2C4A008CAA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F614A59EBFEDB948F179F7F3 /* Pods-MicVolume.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = MicVolume/MicVolume.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F62X9247PK;
+				INFOPLIST_FILE = MicVolume/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.MicVolume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7CF4993C22CA2C4A008CAA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4CE8CBA2EA6A1A5CDA64B7 /* Pods-MicVolumeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F62X9247PK;
+				INFOPLIST_FILE = MicVolumeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.MicVolumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicVolume.app/Contents/MacOS/MicVolume";
+			};
+			name = Debug;
+		};
+		7CF4993D22CA2C4A008CAA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5F0012D67878795BA251B7 /* Pods-MicVolumeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F62X9247PK;
+				INFOPLIST_FILE = MicVolumeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.MicVolumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicVolume.app/Contents/MacOS/MicVolume";
+			};
+			name = Release;
+		};
+		7CF4993F22CA2C4A008CAA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0242646E0C4B98281680251F /* Pods-MicVolumeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F62X9247PK;
+				INFOPLIST_FILE = MicVolumeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.MicVolumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MicVolume;
+			};
+			name = Debug;
+		};
+		7CF4994022CA2C4A008CAA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E0125684FE5A6B5BEA7D29 /* Pods-MicVolumeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F62X9247PK;
+				INFOPLIST_FILE = MicVolumeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.MicVolumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MicVolume;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF4990F22CA2C48008CAA65 /* Build configuration list for PBXProject "MicVolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF4993622CA2C4A008CAA65 /* Debug */,
+				7CF4993722CA2C4A008CAA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF4993822CA2C4A008CAA65 /* Build configuration list for PBXNativeTarget "MicVolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF4993922CA2C4A008CAA65 /* Debug */,
+				7CF4993A22CA2C4A008CAA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF4993B22CA2C4A008CAA65 /* Build configuration list for PBXNativeTarget "MicVolumeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF4993C22CA2C4A008CAA65 /* Debug */,
+				7CF4993D22CA2C4A008CAA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF4993E22CA2C4A008CAA65 /* Build configuration list for PBXNativeTarget "MicVolumeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF4993F22CA2C4A008CAA65 /* Debug */,
+				7CF4994022CA2C4A008CAA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF4990C22CA2C48008CAA65 /* Project object */;
+}
